@@ -1,5 +1,5 @@
 import * as Phaser from 'phaser';
-
+import preloadAssetPackUrl from "../dist/assets/";
 export default class Demo extends Phaser.Scene
 {
     constructor ()
