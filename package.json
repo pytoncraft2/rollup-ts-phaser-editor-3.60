@@ -5,7 +5,8 @@
     "main": "src/game.ts",
     "scripts": {
         "dev": "vite",
-        "build": "rollup --config rollup.config.dist.mjs"
+        "build": "tsc && vite build && phaser-asset-pack-hashing -j -r dist",
+        "build-android": "npm run build && cap sync && cd android && ./gradlew clean && ./gradlew assemble"
     },
     "repository": {
         "type": "git",
@@ -19,6 +20,7 @@
     "homepage": "https://github.com/photonstorm/phaser3-typescript-project-template#readme",
     "devDependencies": {
         "phaser": "^3.60.0",
+        "phaser-asset-pack-hashing": "^1.0.5",
         "typescript": "^5.0.3",
         "vite": "^4.2.1",
         "@capacitor/cli": "^4.0.0"

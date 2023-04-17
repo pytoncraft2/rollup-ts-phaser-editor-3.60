@@ -1,0 +1,6 @@
+{
+	"appId": "com.huipat.aventure",
+	"appName": "huipat-aventure",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}

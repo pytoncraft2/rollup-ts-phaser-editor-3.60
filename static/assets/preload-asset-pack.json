@@ -2,74 +2,9 @@
     "section1": {
         "files": [
             {
-                "url": "assets/animations.json",
-                "type": "animation",
-                "key": "animations"
-            },
-            {
-                "atlasURL": "assets/entites/araigne.json",
-                "textureURL": "assets/entites/araigne.png",
-                "type": "atlas",
-                "key": "araigne"
-            },
-            {
-                "atlasURL": "assets/entites/chauve_souris.json",
-                "textureURL": "assets/entites/chauve_souris.png",
-                "type": "atlas",
-                "key": "chauve_souris"
-            },
-            {
-                "url": "assets/interface-utilisateur/coeur.svg",
-                "svgConfig": {
-                    "width": 0,
-                    "height": 0,
-                    "scale": 0
-                },
-                "type": "svg",
-                "key": "coeur"
-            },
-            {
-                "atlasURL": "assets/entites/fille.json",
-                "textureURL": "assets/entites/fille.png",
-                "type": "atlas",
-                "key": "fille"
-            },
-            {
-                "url": "assets/arriere-plans/fond.jpg",
+                "url": "assets/phaser3-logo.png",
                 "type": "image",
-                "key": "fond"
-            },
-            {
-                "url": "assets/arriere-plans/fond2.png",
-                "type": "image",
-                "key": "fond2"
-            },
-            {
-                "url": "assets/arriere-plans/fond3.png",
-                "type": "image",
-                "key": "fond3"
-            },
-            {
-                "url": "assets/arriere-plans/fond4.jpg",
-                "type": "image",
-                "key": "fond4"
-            },
-            {
-                "atlasURL": "assets/entites/huipat.json",
-                "textureURL": "assets/entites/huipat.png",
-                "type": "atlas",
-                "key": "huipat"
-            },
-            {
-                "url": "assets/toile.png",
-                "type": "image",
-                "key": "toile"
-            },
-            {
-                "atlasURL": "assets/interface-utilisateur/ui.json",
-                "textureURL": "assets/interface-utilisateur/ui.png",
-                "type": "atlas",
-                "key": "ui"
+                "key": "logo"
             }
         ]
     },
